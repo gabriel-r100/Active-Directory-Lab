@@ -4,5 +4,6 @@
 
 <h2>Introduction</h2>
 
-In this lab, I install Windows Server 2019 on a virtual machine, configure an two network adapters, add Active Directory Domain Services, Router Services, and DHCP Services.<br>
-Additionally, we generate users using a list of names (text file) and PowerShell and add them to an Organizational Unit named `_USERS`
+In this lab, I install Windows Server 2019 on a virtual machine using Oracle VirtualBox, configure an two network adapters, add Active Directory Domain Services, Router Services, and DHCP Services.<br>
+Additionally, we generate users using a list of names (text file) and PowerShell and add them to an Organizational Unit named `_USERS`<br>
+Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory domain.
