@@ -1,6 +1,6 @@
 <h1>Active Directory Lab - Uploading Content</h1>
 
-![ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/96b5d8a6-7aeb-465e-9038-6f1979fda127)
+![ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/23668c33-5348-408e-b41f-88ba144404ad)
 
 <h2>Introduction</h2>
 
