@@ -1,4 +1,4 @@
-<h1>Active Directory Lab</h1>
+<h1>Active Directory Lab - Uploading Content</h1>
 
 ![ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/96b5d8a6-7aeb-465e-9038-6f1979fda127)
 
