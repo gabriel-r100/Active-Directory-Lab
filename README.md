@@ -54,3 +54,44 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 </details>
 
 
+
+
+<h2>Server Roles and Features</h2>
+
+![0-3-ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/0bc09da1-6d67-478d-9859-1aaf35a5fbce)
+
+
+
+
+<details><summary><h3>Installing Active Directory Domain Services</h3></summary>
+</details>
+
+<details><summary><h3>Enabling Router Services</h3></summary>
+</details>
+
+<details><summary><h3>Adding DHCP Services</h3></summary>
+</details>
+
+
+
+
+<h2>Creating Active Directory Accounts Using PowerShell</h2>
+
+![0-4-ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/09643b82-8a02-4bcc-8100-0ed8425b967c)
+
+
+
+
+
+<h2>Connecting a Windows 10 Client to Our Domain</h2>
+
+![0-5-ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/c54993e6-f66c-40a2-a5c0-bc4d19646eae)
+
+
+
+
+<details><summary><h3>Virtual Machine Configuration</h3></summary>
+</details>
+
+<details><summary><h3>Renaming Endpoint and Joining Domain</h3></summary>
+</details>
