@@ -13,7 +13,7 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 <h2>Windows Server 2019</h2>
 
-![0-2-ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/a14bbffd-0c94-419c-b9d1-f39dc237b485)
+![0-2-ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/90dc3da3-ee00-4d75-95ef-f96af14e622a)
 
 
 
