@@ -36,9 +36,10 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 
 <details><summary><h3>Network Adapter Configuration and System Name</h3></summary>
-  1. Now that we have successfully installed Windows Server 2019, we can configure and rename the network adapters for our use case.
-  2. Near the bottom right you will find the network settings icon, we select `Change adapter options`
-  3. We can find our two network interfaces here, we want to double click on them and select `Details`
+  1. Now that we have successfully installed Windows Server 2019, we can configure and rename the network adapters for our use case.<br>
+  2. Near the bottom right you will find the network settings icon, we select `Change adapter options`<br>
+  3. We can find our two network interfaces here, we want to double click on them and select `Details`<br>
+  
    ![7-Finding-NICs-VM-GUI](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/8de89c4c-3b24-43ee-9b55-28b2065efcf3)
 
   4. The one with a `IPv4 Address` that begins with 169 is our internal interface that we will rename `_INTERNAL`
