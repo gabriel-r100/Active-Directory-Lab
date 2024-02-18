@@ -146,7 +146,14 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 
 <details><summary><h3>Virtual Machine Configuration</h3></summary>
+
+1. When setting up our Windows 10 VM, we configure an internal network adapter. This ensures the computer only sees the domain controller in its network.
+
 </details>
 
 <details><summary><h3>Renaming Endpoint and Joining Domain</h3></summary>
+
+1. Once we are in the VM, we can rename the hostname and join the domain at the same time.
+![22-1-Renaming-Client-and-Joining-AD-Domain](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/c794176e-405d-4ce7-b0bf-73e99d747090)
+![22-2-Renaming-Client-and-Joining-AD-Domain](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/72019b87-c645-44a7-87ca-0e695a386567)
 </details>
