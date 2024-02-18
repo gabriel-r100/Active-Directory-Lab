@@ -123,7 +123,18 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 ![0-4-ActiveDirectoryLab drawio](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/09643b82-8a02-4bcc-8100-0ed8425b967c)
 
+<details><summary><h3>PowerShell script to generate users</h3></summary>
+  
+1. `$PASSWORD_FOR_USERS` sets the initial password
+2. `USER_FIRST_LAST_LIST` uses the `Get-Content` command to import our names list.
+3. `$password` converts our plain text password into a secure string.
+4. `New-ADOrganizationalUnit` creates a new OU named "USERS", also unchecks the box that protects the OU from deletion.
+5. `foreach` loop goes through each line in our names list, converts to lowercase letters, takes the first letter of the first name, and the entire last name to set as the user name.
+   Example: Gabriel Roque -> Username: groque // Password: Password1
+  
+![99-powershell-script](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/9da7ce29-740f-4fc9-96ff-dea69148c144)
 
+</details>
 
 
 
