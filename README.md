@@ -84,7 +84,7 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 </details>
 
-<detailsopen><summary><h3>Enabling Router Services</h3></summary>
+<details><summary><h3>Enabling Router Services</h3></summary>
 1. We'll start off similar to installing our Active Directory services. Under roles, the Routing services we are looking for fall under <b>Remote Access</b>. For Role services be sure to enable Routing.
 ![15-Adding-Remote-Access-Server-Role](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/3fbd9590-ed05-484d-ac71-2ce78da1c77f)
 ![16-Enabling-Routing](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/47a10548-cdce-4832-b76c-d84fd1737c3a)
@@ -99,6 +99,20 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 </details>
 
 <details><summary><h3>Adding DHCP Services</h3></summary>
+1. We once again start by adding the DHCP role on our server.
+2. Once installed, we click on tools (top right) and select DHCP to configure our DHCP scope.
+3. First we give our scope a name, we can either name it for a particular function. For this lab I chose to name it after the scope of IPs we will be handing out. `172.16.0.100-200`
+![18-1-Configuring-DHCP-Scope](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/32433c19-5290-44d3-8d3a-b02d80092372)
+
+4. We will then need to define the scope in the configuration.
+![18-2-Configuring-DHCP-Scope](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/76f36666-a7f6-433b-831e-ad9f461d1d70)
+
+5. In the next prompt, we can configure the length of the leases we are handing out. If we are working at a coffee shop, we are much more likely to go with a lower lease time to maintain a smaller scope of IPs. In this lab, I emulate a small office so I choose to keep it at 8 days lease time.
+![18-3-Configuring-DHCP-Scope](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/fd103f3d-7a1c-4aa0-ba04-1deb0d9a6c48)
+
+6. Once configured, we can see the leases on the same DHCP window. Below is where to check, but currently I have not configured a client.
+![19-Viewing-DHCP-Leases](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/b7397165-ad44-475b-af0b-812e6e3e9610)
+
 </details>
 
 
