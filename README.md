@@ -64,7 +64,7 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 
 
-<detailsopen><summary><h3>Installing Active Directory Domain Services</h3></summary>
+<details><summary><h3>Installing Active Directory Domain Services</h3></summary>
 1. We start on the Windows Server Dashboard, select the Add Roles and Features. <br>
   a. Installation Type: Role-based or feature-based installation <br>
   b. Server Selection: Here we can select this server <br>
@@ -84,7 +84,18 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 </details>
 
-<details><summary><h3>Enabling Router Services</h3></summary>
+<detailsopen><summary><h3>Enabling Router Services</h3></summary>
+1. We'll start off similar to installing our Active Directory services. Under roles, the Routing services we are looking for fall under <b>Remote Access</b>. For Role services be sure to enable Routing.
+![15-Adding-Remote-Access-Server-Role](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/3fbd9590-ed05-484d-ac71-2ce78da1c77f)
+![16-Enabling-Routing](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/47a10548-cdce-4832-b76c-d84fd1737c3a)
+
+2. Once installed, click on tools on the top right, select <b>Routing and Remote Access</b>.
+![17-1-Configuring-NAT](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/6f877946-47fa-444b-8e7d-9b07340ea006)
+
+3. We can right-click our domain controller to configure the NAT rule to allow our internal clients to connect to the internet via the domain controller (this Windows 2019 Server).
+![17-2-Configuring-NAT](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/48a27d09-5f0b-4fc8-8540-4acd03568355)
+![17-3-Configuring-NAT](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/62e41872-7bef-4cd4-9aff-c179d33e6bee)
+
 </details>
 
 <details><summary><h3>Adding DHCP Services</h3></summary>
