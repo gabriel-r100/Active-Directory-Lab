@@ -64,7 +64,24 @@ Lastly we ensure that an endpoint (Windows 10 VM) can join our Active Directory 
 
 
 
-<details><summary><h3>Installing Active Directory Domain Services</h3></summary>
+<detailsopen><summary><h3>Installing Active Directory Domain Services</h3></summary>
+1. We start on the Windows Server Dashboard, select the Add Roles and Features. <br>
+  a. Installation Type: Role-based or feature-based installation <br>
+  b. Server Selection: Here we can select this server <br>
+  c. Server Roles: <b>Active Directory Domain Services</b> <br>
+2. Once the Active Directory Service has been installed, we need to promote the server to a domain controller. <br>
+  a. There will be a yellow flag on the top right, promote the server.<br>
+  b. For this project we create a new forest as there was no existing domain.<br>
+![11-Adding-New-Forest](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/b222addb-0332-4d50-8a8a-4a50bebf8f61)
+3. We first make an Organizational Unit for our administrators.
+![12-Creating-Organizational-Unit](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/009dfdc8-9e9d-4127-9d9a-b109c67f06bd)
+
+4. Once created, we create our administrator account under the newly created OU.
+![13-Adding-User-to-OU](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/226e71db-61c6-40a8-a39b-45e3a71e5f10)
+
+5. Lastly, although our admin account was created, it still does not have administrator-level privileges. We can update it by right-clicking on our user, navigating to the "Member Of" tab, and adding "domain admins". This will let us sign in as our new user and continue the lab from a personal administrator account.
+![14-Adding-User-to-Domain-Admins-Group](https://github.com/gabriel-r100/Active-Directory-Lab/assets/55646808/c7e84e3c-76ae-45d6-904c-4dc4a6366648)
+
 </details>
 
 <details><summary><h3>Enabling Router Services</h3></summary>
